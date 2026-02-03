@@ -1,28 +1,31 @@
 ## Project Title
 
-GBDA302 Week 3 Example 1: Instructions Screen with Back button
+Night Market Adventure
 
 ---
 
 ## Authors
 
-Karen Cochrane and David Han
+Original template by Karen Cochrane and David Han
+Adapted and redesigned by Annora Zhu
 
 ---
 
 ## Description
 
-This p5.js project demonstrates a simple multi-screen game structure using a state-based approach. The example includes a start screen, an instructions screen with a back button, a basic game screen, and win/lose outcome screens. The focus is on showing how to separate screens into different files, route input based on the current game state, and design simple UI elements such as buttons and keyboard controls.
+Night Market Adventure is an interactive, choice-based p5.js game built using a state-driven screen system. The player explores a night market and makes a series of food choices, each affecting a tracked health (stomach HP) stat. Risky decisions may lead to food poisoning, while safer choices improve the player’s chances of survival.
+
+The project is adapted from a Week 3 course template and expanded into an original branching narrative game. Multiple scenes, player decisions, and stat-based endings are used to demonstrate how simple game states can be combined to create interactive storytelling.
 
 ---
 
 ## Learning Goals
 
-- Understand how to manage multiple game states using a shared currentScreen variable
-- Practice separating code across multiple files for readability and maintenance
-- Implement clickable and keyboard-accessible UI buttons
-- Learn how to route draw(), mousePressed(), and keyPressed() logic based on the active screen
-- Build a basic instructions screen with a functional back button
+- Apply a state-based game structure using a shared currentScreen variable
+- Track and update a player stat (health) across multiple scenes
+- Design branching narrative outcomes based on player decisions
+- Practice separating game logic and visuals across multiple JavaScript files
+- Implement interactive UI elements using mouse and keyboard input
 
 ---
 
@@ -34,6 +37,7 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+The original course template was created by Dr. Karen Cochrane, with comments assisted by GenAI.
+This project was adapted and expanded by Annora Zhu, with GenAI used as a coding and design assistant during development.
 
 ---
